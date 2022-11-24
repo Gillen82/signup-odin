@@ -1,0 +1,125 @@
+/* Extra Large Screens, TV */
+@media only screen and (min-width: 1201px) {
+}
+
+/* Desktops, Large Screens */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+}
+
+/* Laptops, Small Screens */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+	.hero {
+		width: 50%;
+	}
+
+	.content {
+		width: 50%;
+	}
+
+	.signup-section h2 {
+		font-size: 1.2rem;
+	}
+
+	.signup-form {
+		height: 70vh;
+		grid-template-columns: 2fr;
+		gap: 0;
+	}
+
+	.signup-form input {
+		color: #eee;
+		padding: 10px;
+		font-size: 1.5rem;
+	}
+
+	.signup-form input:focus {
+		border: 1px solid #486085;
+	}
+
+	button {
+		width: 100%;
+	}
+}
+
+/* iPads, Tablets */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+	.hero {
+		width: 50%;
+	}
+
+	.content {
+		width: 50%;
+	}
+
+	.signup-section {
+		padding: 1.5rem;
+	}
+
+	.signup-section h2 {
+		font-size: 1rem;
+	}
+
+	.signup-form {
+		height: 70vh;
+		grid-template-columns: 1fr;
+		gap: 0;
+	}
+
+	.signup-form input:focus {
+		border: 1px solid #486085;
+	}
+
+	button {
+		width: 100%;
+	}
+}
+
+/* Mobile Devices */
+@media only screen and (max-width: 480px) {
+	h1 {
+		font-size: 1rem;
+		font-family: 'Libre Baskerville', serif;
+		letter-spacing: 0.2rem;
+	}
+
+	.hero {
+		width: 100%;
+	}
+
+	.content {
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0.7);
+		position: absolute;
+	}
+
+	.signup-section {
+		padding: 1rem;
+	}
+
+	.message {
+		height: 10vh;
+	}
+
+	.signup-form {
+		height: 80vh;
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+
+	.signup-form label {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.signup-form input {
+		padding: 10px;
+	}
+
+	button {
+		width: 100%;
+	}
+
+	.footer {
+		text-align: center;
+	}
+}
