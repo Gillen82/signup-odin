@@ -102,6 +102,7 @@
 
 	.photo-link {
 		margin-bottom: 4rem;
+		z-index: 1;
 	}
 
 	.signup-section {
