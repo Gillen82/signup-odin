@@ -23,11 +23,11 @@
 /* Laptops, Small Screens */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
 	.hero {
-		width: 50%;
+		width: 40%;
 	}
 
 	.content {
-		width: 50%;
+		width: 60%;
 	}
 
 	.signup-section h2 {
@@ -36,7 +36,7 @@
 
 	.signup-form {
 		height: 70vh;
-		grid-template-columns: 1fr;
+		grid-template-columns: 1fr 1fr;
 		gap: 1rem;
 	}
 
