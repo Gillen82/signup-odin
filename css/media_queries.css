@@ -1,5 +1,19 @@
 /* Extra Large Screens, TV */
 @media only screen and (min-width: 1201px) {
+	.photo-link {
+		bottom: 1rem;
+	}
+
+	.signup-section {
+		padding: 3rem;
+		gap: 2rem;
+	}
+
+	.signup-form input {
+		padding: 0.5rem;
+		margin-top: 1rem;
+		font-size: 1.2rem;
+	}
 }
 
 /* Desktops, Large Screens */
@@ -22,14 +36,14 @@
 
 	.signup-form {
 		height: 70vh;
-		grid-template-columns: 2fr;
-		gap: 0;
+		grid-template-columns: 1fr;
+		gap: 1rem;
 	}
 
 	.signup-form input {
 		color: #eee;
 		padding: 10px;
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 	}
 
 	.signup-form input:focus {
@@ -76,12 +90,6 @@
 
 /* Mobile Devices */
 @media only screen and (max-width: 480px) {
-	h1 {
-		font-size: 1rem;
-		font-family: 'Libre Baskerville', serif;
-		letter-spacing: 0.2rem;
-	}
-
 	.hero {
 		width: 100%;
 	}
@@ -90,6 +98,10 @@
 		width: 100%;
 		background-color: rgba(0, 0, 0, 0.7);
 		position: absolute;
+	}
+
+	.photo-link {
+		margin-bottom: 2rem;
 	}
 
 	.signup-section {
@@ -101,9 +113,10 @@
 	}
 
 	.signup-form {
-		height: 80vh;
+		height: 70vh;
 		display: grid;
 		grid-template-columns: 1fr;
+		margin-top: 1rem;
 	}
 
 	.signup-form label {
@@ -112,7 +125,8 @@
 	}
 
 	.signup-form input {
-		padding: 10px;
+		padding: 0.5rem;
+		font-size: 1.3rem;
 	}
 
 	button {
